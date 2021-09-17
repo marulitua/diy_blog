@@ -1,0 +1,32 @@
+version: "3.8"
+
+services:
+  php:
+    build: .
+    image: php
+    restart: always
+    command: php -S 0.0.0.0:80 -t public
+    volumes:
+        - ./:/app
+    ports:
+      - "8000:80"
+
+  mysql:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: "${MYSQL_PASSWORD}"
+      MYSQL_DATABASE: "${MYSQL_DATABASE}"
+    volumes:
+      - "harusbisa_data:/var/lib/mysql"
+    ports:
+      - "${MYSQL_PORT}:3306"
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - "8001:8080"
+
+volumes:
+  harusbisa_data:

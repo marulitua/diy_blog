@@ -44,4 +44,3 @@ class View
         return $result($template, $this->data);
     }
 }
-

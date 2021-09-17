@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <psalm
-    errorLevel="1"
+    errorLevel="2"
     resolveFromConfigFile="true"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns="https://getpsalm.org/schema/config"
@@ -13,7 +13,9 @@
     ensureArrayIntOffsetsExist="true"
     allowNamedArgumentCalls="true">
     <projectFiles>
-        <directory name="src"/>
+        <directory name="framework"/>
+        <directory name="app/src"/>
+        <directory name="app/tests"/>
         <ignoreFiles>
             <directory name="vendor"/>
         </ignoreFiles>
@@ -23,13 +25,21 @@
         <PossiblyNullArrayAccess errorLevel="suppress"/>
         <MissingThrowsDocblock>
             <errorLevel type="suppress">
-                <directory name="tests"/>
+                <directory name="app/tests"/>
+                <directory name="framework/tests"/>
             </errorLevel>
         </MissingThrowsDocblock>
         <PossiblyUnusedMethod>
             <errorLevel type="suppress">
-                <directory name="tests"/>
+                <directory name="app/tests"/>
+                <directory name="app/src/Controllers"/>
+                <directory name="framework/tests"/>
             </errorLevel>
         </PossiblyUnusedMethod>
+        <UnusedClass>
+            <errorLevel type="suppress">
+                <directory name="app/src/Controllers"/>
+            </errorLevel>
+        </UnusedClass>
     </issueHandlers>
 <plugins><pluginClass class="Psalm\PhpUnitPlugin\Plugin"/></plugins></psalm>

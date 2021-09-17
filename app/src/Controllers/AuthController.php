@@ -20,7 +20,8 @@ class AuthController
      * @throws \Framework\Exceptions\ContainerException
      * @throws \Framework\Exceptions\ContainerNotFoundException
      */
-    public function loginSubmit(Request $request) : Response {
+    public function loginSubmit() : Response {
+        $request = Request::createFromGlobals();
         $username = "root";
         $salt = "jJQX2MNmdXYmsW0hdjace5xwYMg3XOSc7oh8m0OF";
         $hash = "f971a4accc832d8df48154c287ff6017b82021d63e28f3143e5b5edf3cb3b7a8";
@@ -28,7 +29,7 @@ class AuthController
         $url = "/";
          // Used for login error messages
 
-        //sleep(3); // Makes it ages slower for rainbow attacks
+        sleep(3); // Makes it ages slower for rainbow attacks
 
         if (
             $request->request->has('un') &&
@@ -40,6 +41,12 @@ class AuthController
 
             return new RedirectResponse($url);
         } else {
+            dd(
+                $request->request->all(),
+                $request->request->get('un'),
+                $username,
+                hash("sha256", $request->request->get('pw').$salt, $hash)
+            );
             $message = "Incorrect login data";
             return $this->renderLogin((string) $request->request->get('un'), $message);
         }

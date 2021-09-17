@@ -82,6 +82,7 @@ class Kernel extends Container {
         });
 
         $this->setBasePath($basePath);
+        $this->set(Request::class, Request::createFromGlobals());
         $this->collectRoutes();
         $this->set('version', '0.0.1');
         Routes::get('/version', function () : string {

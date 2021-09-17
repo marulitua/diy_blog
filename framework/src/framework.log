@@ -29628,3 +29628,1257 @@ Exception {#645
   }
 }
 
+17.09.2021 13:48:25 GET /  
+Exception {#663
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:135 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 13:48:25 GET /  
+Exception {#645
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:150 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 13:49:31 GET /  
+Exception {#663
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:135 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 13:49:31 GET /  
+Exception {#645
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:150 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 13:49:41 GET /  
+Exception {#663
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:135 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 13:49:41 GET /  
+Exception {#645
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:150 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 13:49:52 GET /  
+Exception {#663
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:135 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 13:49:52 GET /  
+Exception {#645
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:150 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 13:50:24 GET /  
+Exception {#663
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:135 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 13:50:24 GET /  
+Exception {#645
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:150 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 13:50:53 GET /  
+Exception {#663
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:135 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 13:50:53 GET /  
+Exception {#645
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:150 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 13:54:26 GET /  
+Exception {#663
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:135 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 13:54:26 GET /  
+Exception {#645
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:150 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 13:55:40 GET /  
+Exception {#663
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:135 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 13:55:40 GET /  
+Exception {#645
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:150 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 13:57:43 GET /  
+Exception {#655
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:135 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 13:57:43 GET /  
+Exception {#637
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:150 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 13:58:12 GET /  
+Exception {#655
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:135 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 13:58:12 GET /  
+Exception {#637
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:150 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 13:59:37 GET /  
+Exception {#655
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:135 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 13:59:37 GET /  
+Exception {#637
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:150 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 14:00:02 GET /  
+Exception {#655
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:135 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 14:00:02 GET /  
+Exception {#637
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:150 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 14:01:21 GET /  
+Exception {#655
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:135 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 14:01:21 GET /  
+Exception {#637
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:150 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 14:01:24 GET /  
+Exception {#655
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:135 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 14:01:24 GET /  
+Exception {#637
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:150 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 14:01:52 GET /  
+Exception {#655
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:135 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 14:01:52 GET /  
+Exception {#637
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:150 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 14:02:06 GET /  
+Exception {#655
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:135 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 14:02:06 GET /  
+Exception {#637
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:150 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 14:04:34 GET /  
+Exception {#655
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:135 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 14:04:34 GET /  
+Exception {#637
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:150 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 14:04:36 GET /  
+Exception {#655
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:135 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 14:04:36 GET /  
+Exception {#637
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:150 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 14:04:37 GET /  
+Exception {#655
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:135 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+
+17.09.2021 14:04:37 GET /  
+Exception {#637
+  #message: ""
+  #code: 0
+  #file: "./framework/tests/RoutesTest.php"
+  #line: 23
+  trace: {
+    ./framework/tests/RoutesTest.php:23 {
+      BarController->boom(Request $request)
+      › {
+      ›     throw new Exception;
+      › }
+    }
+    BarController->boom() {}
+    ./framework/src/Handler.php:67 { …}
+    ./framework/src/Kernel.php:52 { …}
+    ./framework/tests/AbstractTest.php:77 { …}
+    ./framework/tests/AbstractTest.php:53 { …}
+    ./framework/tests/RoutesTest.php:150 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1527 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:1133 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestResult.php:722 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestCase.php:885 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/Framework/TestSuite.php:678 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/TestRunner.php:670 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:143 { …}
+    ./vendor/phpunit/phpunit/src/TextUI/Command.php:96 { …}
+    ./vendor/phpunit/phpunit/phpunit:92 { …}
+  }
+}
+

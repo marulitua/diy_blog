@@ -1,3 +1,5 @@
 /vendor/
 .env
 .phpunit.result.cache
+app/framework.log
+app/framework.log

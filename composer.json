@@ -10,14 +10,25 @@
     ],
     "autoload": {
         "psr-4": {
-            "Blog\\": "src",
-            "Blog\\Tests\\": "tests"
-        }
+            "App\\": "app/src",
+            "App\\Tests\\": "app/tests",
+            "Framework\\": "framework/src",
+            "Framework\\Tests\\": "framework/tests"
+        },
+        "files": [
+            "framework/src/helper.php"
+        ]
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.3",
+        "symfony/http-foundation": "^5.3",
+        "robmorgan/phinx": "^0.12.8"
     },
     "require-dev": {
-        "vimeo/psalm": "^4.10",
         "phpunit/phpunit": "^9",
-        "psalm/plugin-phpunit": "^0.16.1",
-        "phpro/grumphp": "^1.4"
+        "vimeo/psalm": "^4.10",
+        "symfony/var-dumper": "^5.3",
+        "phpro/grumphp": "^1.4",
+        "psalm/plugin-phpunit": "^0.16.1"
     }
 }

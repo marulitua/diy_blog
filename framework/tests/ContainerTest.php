@@ -1,35 +1,44 @@
 <?php
 
-namespace Blog\Tests;
+namespace Framework\Tests;
 
-use Psr\Container\ContainerInterface;
-use PHPUnit\Framework\TestCase;
-use Blog\Infrastructures\Container;
 use DateTime;
-use Blog\Exceptions\{ContainerException,
-                     ContainerNotFoundException};
+use Framework\Container;
+use Framework\Tests\AbstractTest;
+use Psr\Container\ContainerInterface;
+use Framework\Exceptions\ContainerNotFoundException;
+use function get_class;
 
 /**
- * Class ContainerTest
+ * Class Framework\Tests\ContainerTest
  * @author Erwin Pakpahan <erwinmaruli@live.com>
+ * @psalm-suppress PropertyNotSetInConstructor
+ *
+ * @property Framework\Container container
  */
-class ContainerTest extends TestCase
+class ContainerTest extends AbstractTest
 {
-    /**
-     * The response
-     *
-     * @var Container
-     */
+    /** @var \Framework\Container $container */
     protected $container;
 
-    protected function setUp() : void
+    /**
+     * This method is called before each test.
+     */
+    protected function setUp(): void
     {
-        $this->container = Container::getInstance();
+        $this->container = new Container;
     }
 
-    public function testItImplementsContainerInterface()
+    public function testItImplementsInterfaces(): void
     {
         $this->assertInstanceOf(ContainerInterface::class, $this->container);
+    }
+
+    public function testItHasSimpleClasses(): void
+    {
+        $this->assertFalse($this->container->has('FooBar'));
+        $this->assertTrue($this->container->has(DateTime::class));
+        $this->assertInstanceOf(DateTime::class, $this->container->get(DateTime::class));
     }
 
     public function testItReturnNotFoundExceptionIfClassCannotBeFound(): void
@@ -82,4 +91,5 @@ class ContainerTest extends TestCase
         $this->assertTrue($this->container->has('Foo\Bar'));
         $this->assertInstanceOf($toResolve, $this->container->get('Foo\Bar'));
     }
+
 }

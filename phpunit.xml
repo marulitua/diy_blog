@@ -2,12 +2,22 @@
 <phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" backupGlobals="false" backupStaticAttributes="false" colors="true" convertErrorsToExceptions="true" convertNoticesToExceptions="true" convertWarningsToExceptions="true" processIsolation="false" stopOnFailure="false" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.3/phpunit.xsd">
   <coverage processUncoveredFiles="true">
     <include>
-        <directory suffix=".php">./src</directory>
+        <directory suffix=".php">./framework/src</directory>
+        <directory suffix=".php">./app/src</directory>
     </include>
   </coverage>
   <testsuites>
-    <testsuite name="Blog Test Suite">
-      <directory suffix="Test.php">./tests</directory>
+    <testsuite name="Framework Test Suite">
+      <directory suffix="Test.php">./framework/tests</directory>
+    </testsuite>
+    <testsuite name="Application Test Suite">
+      <directory suffix="Test.php">./app/tests</directory>
     </testsuite>
   </testsuites>
+  <php>
+    <ini name="session.use_cookies" value="0" />
+    <ini name="session.use_only_cookies" value="0" />
+    <ini name="session.use_trans_sid" value="0" />
+    <ini name="session.cache_limiter" value="" />
+  </php>
 </phpunit>

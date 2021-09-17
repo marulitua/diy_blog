@@ -1,48 +1,55 @@
 <?php
 
-namespace Blog\Infrastructures;
+namespace Framework;
 
-use ReflectionClass;
-use ReflectionFunction;
-use ReflectionException;
+use Closure;
 use Psr\Container\ContainerInterface;
-use Blog\Exceptions\{ContainerException,
-                     ContainerNotFoundException};
+use Framework\Exceptions\ContainerException;
+use Framework\Exceptions\ContainerNotFoundException;
+use ReflectionClass;
+use ReflectionException;
+use ReflectionFunction;
+use function PHPUnit\Framework\isInstanceOf;
+use function call_user_func;
+use function gettype;
+use function is_callable;
+use function is_null;
+use function is_numeric;
+use function is_scalar;
+
 
 /**
-* Class Blog\Infrastructures\Container
-* @author Erwin Pakpahan <erwinmaruli@live.com>
-*
-* @psalm-consistent-constructor
-*/
+ * Class Framework\Container
+ * @psalm-suppress PropertyNotSetInConstructor
+ * @psalm-consistent-constructor
+ * @author Erwin Pakpahan <erwinmaruli@live.com>
+ *
+ */
 class Container implements ContainerInterface
 {
     /**
-     * Container will be globally shared
+     * The current globally available container (if any).
      *
      * @var Container|null
      */
     protected static $instance;
 
-    /*
-     * @return an instance of Container
+    /**
+     * @var array mixed $services
      */
-    public static function getInstance() : Container
-    {
-        if (is_null(static::$instance)) {
-            static::$instance = new static;
-        }
+    private mixed $services = [];
 
-        return static::$instance;
+    public static function reset(): void {
+        self::$instance = null;
     }
 
     /**
-     * Fetch entry of the container by its identifier
+     * Finds an entry of the container by its identifier and returns it.
      *
-     * @param string $id Identifier of the entry to look for
+     * @param string $id Identifier of the entry to look for.
      *
-     * @throws \Blog\Exceptions\ContainerNotFoundException No entry was found
-     * @throws \Blog\Exceptions\ContainerException Error while retrieving the entry
+     * @throws ContainerNotFoundException No entry was found for **this** identifier.
+     * @throws ContainerException Error while retrieving the entry.
      *
      * @return mixed Entry.
      */
@@ -60,18 +67,18 @@ class Container implements ContainerInterface
     }
 
     /**
-     * Returns true if the container can return an entry
-     * Returns false otherwise
+     * Returns true if the container can return an entry for the given identifier.
+     * Returns false otherwise.
      *
      * `has($id)` returning true does not mean that `get($id)` will not throw an exception.
      * It does however mean that `get($id)` will not throw a `NotFoundExceptionInterface`.
      *
      * @param string $id Identifier of the entry to look for.
      *
-     * @throws \Blog\Exceptions\ContainerException
-     * @throws \Blog\Exceptions\ContainerNotFoundException
-     *
      * @return bool
+     *
+     * @throws \Framework\Exceptions\ContainerException
+     * @throws \Framework\Exceptions\ContainerNotFoundException
      */
     public function has(string $id)
     {
@@ -84,35 +91,14 @@ class Container implements ContainerInterface
     }
 
     /**
-     * Set entry by unique identifier
-     * This method can be chained call
-     *
-     * @param mixed $value
-     *
-     * @psalm-suppress MixedAssignment
-     * @psalm-suppress MixedArrayAssignment
-     * @psalm-suppress UndefinedPropertyFetch
-     * @psalm-suppress UndefinedPropertyAssignment
-     *
-     * @return Container
-     */
-    public function set(string $key, $value) : Container
-    {
-        $this->getInstance()->services[$key] = $value;
-        return $this;
-    }
-
-    /**
      * @return mixed
      *
-     * @psalm-suppress MixedAssignment
-     * @psalm-suppress MixedArrayAccess
-     * @psalm-suppress UndefinedPropertyFetch
+     * @psalm-return mixed
      *
-     * @throws \Blog\Exceptions\ContainerException
-     * @throws \Blog\Exceptions\ContainerNotFoundException
+     * @throws \Framework\Exceptions\ContainerException
+     * @throws \Framework\Exceptions\ContainerNotFoundException
      */
-    private function resolve(string $id) : mixed
+    private function resolve(string $id)
     {
         try {
             $name = $id;
@@ -130,20 +116,12 @@ class Container implements ContainerInterface
                     return $name;
                 }
             }
-            /** @psalm-suppress MixedArgument */
             return (new ReflectionClass($name));
         } catch (ReflectionException $e) {
             throw new ContainerNotFoundException($e->getMessage(), (int) $e->getCode(), $e);
         }
     }
 
-    /**
-     * Build an instance of resolved class entry
-     *
-     * @psalm-suppress MixedAssignment
-     *
-     * @return object
-     */
     private function createInstance(ReflectionClass $item): object
     {
         $constructor = $item->getConstructor();
@@ -159,34 +137,43 @@ class Container implements ContainerInterface
     }
 
     /**
-     * Returns the result of the invoked function call
-     *
-     * @return mixed
+     * @return mixed Returns the result of the invoked function call.
      */
     private function callClosure(ReflectionFunction $item) : mixed
     {
         return $item->invoke(...$this->constructArguments($item->getParameters()));
     }
 
-    /**
-     * Build arguments for resolved entry
-     *
-     * @psalm-suppress MixedMethodCall
-     * @psalm-suppress MixedAssignment
-     *
-     * @return array
-     */
     private function constructArguments(array $arguments) : array
     {
         $params = [];
         foreach ($arguments as $param) {
-            /** @var string */
             if ($name = $param->getName()) {
-                /** @var mixed */
-                $params[] = $this->get((string) $name);
+                $params[] = $this->get($name);
             }
         }
 
         return $params;
+    }
+
+    /**
+     * @param mixed $value
+     */
+    public function set(string $key, $value) : Container
+    {
+        $this->getInstance()->services[$key] = $value;
+        return $this;
+    }
+
+    /*
+     * @return Container
+     */
+    public static function getInstance() : Container
+    {
+        if (is_null(static::$instance)) {
+            static::$instance = new static;
+        }
+
+        return static::$instance;
     }
 }

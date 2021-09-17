@@ -1,11 +1,11 @@
 <?php
 
-namespace Blog\Exceptions;
+namespace Framework\Exceptions;
 
 use Exception;
 
 /**
- * Class Exceptions
+ * Class Framework\Exceptions
  * @author Erwin Pakpahan <erwinmaruli@live.com>
  */
 class EntityNotFoundException extends Exception

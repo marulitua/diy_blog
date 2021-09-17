@@ -1,0 +1,9 @@
+<?php
+
+namespace Blog\Exceptions;
+
+use Exception;
+
+class ContainerException extends Exception
+{
+}

@@ -1,0 +1,23 @@
+{
+    "name": "maruli/diy_blog",
+    "description": "A DIY blog",
+    "type": "project",
+    "authors": [
+        {
+            "name": "erwin maruli",
+            "email": "erwinmaruli@live.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Blog\\": "src",
+            "Blog\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "vimeo/psalm": "^4.10",
+        "phpunit/phpunit": "^9",
+        "psalm/plugin-phpunit": "^0.16.1",
+        "phpro/grumphp": "^1.4"
+    }
+}

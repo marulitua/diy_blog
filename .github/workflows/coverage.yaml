@@ -1,0 +1,16 @@
+on:
+  push:
+jobs:
+  coverage-overall:
+    name: "Show all coverage files"
+    runs-on: "ubuntu-20.04"
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/download-artifact@v2
+        with:
+          path: ~/coverages
+
+      - name: Display structure of downloaded files
+        run: ls -R
+        working-directory: ~/coverages

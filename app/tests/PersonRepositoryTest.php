@@ -64,7 +64,7 @@ class PersonRepositoryTest extends TestCase
      * @covers \App\Repositories\PersonRepository::find
      * @dataProvider findProvider
      */
-    public function testFind(int $id, array $data)
+    public function testFind(int $id, array $data) : void
     {
         //
         // In this test we will test several valid
